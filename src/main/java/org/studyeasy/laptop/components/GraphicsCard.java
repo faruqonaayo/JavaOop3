@@ -17,6 +17,18 @@ public class GraphicsCard {
         this.memory = "6 GB";
     }
 
+    public String getBrand() {
+        return brand;
+    }
+
+    public int getSeries() {
+        return series;
+    }
+
+    public String getMemory() {
+        return memory;
+    }
+
     @Override
     public String toString() {
         return "GraphicsCard{" +

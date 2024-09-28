@@ -35,6 +35,42 @@ public class Processor {
         this.minFrequency = "2.4 GHz";
     }
 
+    public String getBrand() {
+        return brand;
+    }
+
+    public String getSeries() {
+        return series;
+    }
+
+    public int getGeneration() {
+        return generation;
+    }
+
+    public int getCores() {
+        return cores;
+    }
+
+    public int getThreads() {
+        return threads;
+    }
+
+    public String getCacheMemory() {
+        return cacheMemory;
+    }
+
+    public String getFrequency() {
+        return frequency;
+    }
+
+    public String getMaxFrequency() {
+        return maxFrequency;
+    }
+
+    public String getMinFrequency() {
+        return minFrequency;
+    }
+
     @Override
     public String toString() {
         return "Processor{" +
